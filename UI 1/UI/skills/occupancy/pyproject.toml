@@ -1,0 +1,14 @@
+[project]
+name = "Occupancy Strategy"
+version = "0.1.0"
+description = ""
+authors = [{ name = "John Doe", email = "john.doe@composabl.com" }]
+dependencies = [
+    "composabl-core",
+    "numpy"
+
+]
+
+[composabl]
+type = "skill-controller"
+entrypoint = "occupancy.controller:UsageStrategy"
